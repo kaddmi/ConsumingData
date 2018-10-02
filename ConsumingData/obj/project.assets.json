@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ConsumingData\\ConsumingData\\ConsumingData.csproj",
+      "projectUniqueName": "D:\\gk\\ConsumingData\\ConsumingData\\ConsumingData.csproj",
       "projectName": "ConsumingData",
-      "projectPath": "D:\\ConsumingData\\ConsumingData\\ConsumingData.csproj",
+      "projectPath": "D:\\gk\\ConsumingData\\ConsumingData\\ConsumingData.csproj",
       "packagesPath": "C:\\Users\\Anastasija\\.nuget\\packages\\",
-      "outputPath": "D:\\ConsumingData\\ConsumingData\\obj\\",
+      "outputPath": "D:\\gk\\ConsumingData\\ConsumingData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

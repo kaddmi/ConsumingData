@@ -9,3 +9,14 @@ D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.AssemblyInf
 D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.AssemblyInfo.cs
 D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.dll
 D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.pdb
+D:\gk\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.deps.json
+D:\gk\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.runtimeconfig.json
+D:\gk\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.runtimeconfig.dev.json
+d:\gk\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.dll
+d:\gk\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.pdb
+d:\gk\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.csprojAssemblyReference.cache
+d:\gk\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.csproj.CoreCompileInputs.cache
+d:\gk\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.AssemblyInfoInputs.cache
+d:\gk\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.AssemblyInfo.cs
+d:\gk\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.dll
+d:\gk\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.pdb
