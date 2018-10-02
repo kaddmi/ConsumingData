@@ -1,0 +1,11 @@
+D:\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.deps.json
+D:\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.runtimeconfig.json
+D:\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.runtimeconfig.dev.json
+D:\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.dll
+D:\ConsumingData\ConsumingData\bin\Debug\netcoreapp2.0\ConsumingData.pdb
+D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.csprojAssemblyReference.cache
+D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.csproj.CoreCompileInputs.cache
+D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.AssemblyInfoInputs.cache
+D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.AssemblyInfo.cs
+D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.dll
+D:\ConsumingData\ConsumingData\obj\Debug\netcoreapp2.0\ConsumingData.pdb

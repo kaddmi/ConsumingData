@@ -1,0 +1,6 @@
+{/*book*/
+  "title": "tit",
+  "author": "au",
+  "numberOfPages": 400,
+  "publishingYear": 1852
+}

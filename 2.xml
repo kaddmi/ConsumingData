@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book title="The Little Prince" author="Antoine de Saint-Exupéry">
+    <information>
+      <numberOfPages>104</numberOfPages>
+      <publishingYear>2003</publishingYear>
+    </information>
+  </book>
+</books>
