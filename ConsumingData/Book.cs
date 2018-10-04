@@ -42,24 +42,6 @@ namespace ConsumingData
                   NumberOfPages = xmlReader.ReadElementContentAsInt();
                   PublishingYear = xmlReader.ReadElementContentAsInt();
             }
-     /*     XmlDocument doc = new XmlDocument();
-            doc.Load(path);
-            XmlNode bn = doc.DocumentElement;
-            XmlNodeList book = bn.ChildNodes;
-            foreach (XmlNode b in book)
-            {
-                XmlElement bookElement = (XmlElement)b;
-                XmlAttribute attr = bookElement.GetAttributeNode("title");
-                Title = attr.InnerText;
-                attr = bookElement.GetAttributeNode("author");
-                Author = attr.InnerXml;
-                XmlNodeList inf = b.ChildNodes;
-                foreach (XmlNode infEl in inf)
-                {
-                    XmlElement infElement = (XmlElement)infEl;
-                    NumberOfPages = Convert.ToInt16(infElement["numberOfPages"].InnerText);
-                    PublishingYear = Convert.ToInt16(infElement["publishingYear"].InnerText);
-                }*/         
         }
 
         public void SaveToXml(string path)

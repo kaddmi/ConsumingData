@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book title="Harry Potter and the Half-Blood Prince" author="Joanne Rowling">
+    <information>
+      <numberOfPages>600</numberOfPages>
+      <publishingYear>2009</publishingYear>
+    </information>
+  </book>
+</books>

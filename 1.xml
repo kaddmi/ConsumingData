@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <books>
-<book title = "Alice in Wonderland" author = "Lewis Carroll" >
-<information>
-<numberOfPages>400</numberOfPages>
-<publishingYear>2004</publishingYear>
-</information>
-</book>
 <book title = "Mist" author = "Stephan King" >
 <information>
 <numberOfPages>256</numberOfPages>

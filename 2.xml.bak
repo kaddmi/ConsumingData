@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<books>
-  <book title="tit" author="au">
-    <information>
-      <numberOfPages>400</numberOfPages>
-      <publishingYear>1852</publishingYear>
-    </information>
-  </book>
-</books>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Xml;
+using System.IO;
+using System.Linq;
 
 namespace ConsumingData
 {
@@ -8,15 +9,28 @@ namespace ConsumingData
     {
         static void Main(string[] args)
         {
-            Book book1 = new Book();
-            Book book2 = new Book();
-            Book book3 = new Book("The Little Prince", "Antoine de Saint-Exupéry", 104,2003);
-            book1.ReadFromXml("D:\\ConsumingData\\1.xml");
-            Console.WriteLine(book1.Author);     
-            book3.SaveToXml("D:\\ConsumingData\\2.xml");
-            book3.SaveToJSON("D:\\ConsumingData\\2.json");
-            book2 = book2.LoadFromJSON("D:\\ConsumingData\\2.json");
-            Console.WriteLine(book2.Author);
+            Book book1 = new Book("Harry Potter and the Half-Blood Prince", "Joanne Rowling", 600, 2009);
+            Book book2 = new Book("The Little Prince", "Antoine de Saint-Exupéry", 104,2003);
+            List<Book> books = new List<Book>();
+            books.Add(book1);
+            books.Add(book2);
+            int counter = 1;
+            foreach (var book in books)
+            {
+                book.SaveToXml(@"D:\gk\ConsumingData\book" + (counter++).ToString() + ".xml");
+                book.SaveToJSON(@"D:\gk\ConsumingData\book" + (counter++).ToString() + ".json");
+            }
+            foreach (var file in Directory.EnumerateFiles(@"D:\gk\ConsumingData\").Where(x => x.EndsWith(".json")))
+            {
+                var book = (new Book().LoadFromJSON(file));
+                Console.WriteLine(book.Author);
+            }
+            foreach (var file in Directory.EnumerateFiles(@"D:\gk\ConsumingData\").Where(x => x.EndsWith(".xml")))
+            {
+                var book = new Book();
+                book.ReadFromXml(file);
+                Console.WriteLine(book.Title);
+            }
             Console.ReadLine();
         }
     }
