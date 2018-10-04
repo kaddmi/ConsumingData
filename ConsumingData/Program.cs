@@ -22,7 +22,8 @@ namespace ConsumingData
             }
             foreach (var file in Directory.EnumerateFiles(@"D:\gk\ConsumingData\").Where(x => x.EndsWith(".json")))
             {
-                var book = (new Book().LoadFromJSON(file));
+                var book = new Book();
+                book.LoadFromJSON(file);
                 Console.WriteLine(book.Author);
             }
             foreach (var file in Directory.EnumerateFiles(@"D:\gk\ConsumingData\").Where(x => x.EndsWith(".xml")))

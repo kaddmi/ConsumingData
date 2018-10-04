@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "JSON/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Json.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Json.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -209,6 +218,26 @@
     }
   },
   "libraries": {
+    "JSON/1.0.1": {
+      "sha512": "n387Xh1oDWolCIVb2oMV1bWkEKBBk5iLkMuaiAQuLUaAZwowyym2s/6b/hFnmS5J3bzINmZ7I2WEbBAZMQd2dg==",
+      "type": "package",
+      "path": "json/1.0.1",
+      "files": [
+        "LICENSE",
+        "json.1.0.1.nupkg.sha512",
+        "json.nuspec",
+        "lib/net35/Json.Net35.dll",
+        "lib/net35/Json.Net35.pdb",
+        "lib/net40/Json.dll",
+        "lib/net40/Json.pdb",
+        "lib/sl3/Json.Silverlight.dll",
+        "lib/sl3/Json.Silverlight.pdb",
+        "lib/sl4/Json.Silverlight4.dll",
+        "lib/sl4/Json.Silverlight4.pdb",
+        "lib/wp/Json.WindowsPhone.dll",
+        "lib/wp/Json.WindowsPhone.pdb"
+      ]
+    },
     "Microsoft.NETCore.App/2.0.0": {
       "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
       "type": "package",
@@ -697,6 +726,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "JSON >= 1.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 11.0.2"
     ]
@@ -742,6 +772,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "JSON": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.0.0, )",
@@ -759,5 +793,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"JSON 1.0.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1\", а не целевой платформы проекта \".NETCoreApp,Version=v2.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "JSON",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

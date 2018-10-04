@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.IO;
-using System.Linq;
 using Newtonsoft.Json;
-using System.Xml.Serialization;
+using Newtonsoft.Json.Linq;
+
 
 namespace ConsumingData
 {
@@ -83,11 +83,17 @@ namespace ConsumingData
             File.WriteAllText(path, sb.ToString());
         }
 
-        public Book LoadFromJSON(string path)
+        public void LoadFromJSON(string path)
         {
-            string js = File.ReadAllText(path);
-            Book book = JsonConvert.DeserializeObject<Book>(js);
-            return book;
+            using (var js = new StreamReader(path))
+            {
+                var reader = new JsonTextReader(js);
+                var jObj = JObject.Load(reader);
+                Title = jObj.GetValue("Title").Value<string>();
+                Author = jObj.GetValue("Author").Value<string>();
+                NumberOfPages = jObj.GetValue("NumberOfPages").Value<int>();
+                PublishingYear = jObj.GetValue("PublishingYear").Value<int>();
+            }
         }
     }
 }
